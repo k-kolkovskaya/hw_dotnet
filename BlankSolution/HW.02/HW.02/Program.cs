@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace HW._02
 {
@@ -14,7 +15,23 @@ namespace HW._02
             //6. Initialize for loop which starts from 0, ends by arrayOfTextResult.Length - 1. Loop step = 1. Then do following steps on each iteration:
                 //6.1. Convert each item of arrayOfTextResult to an 8-bit integer, write this value to "binary" variable.
                 //6.2. Assign to i-th element of imageBytes array "binary" value.
-            //7. Create a new file image.png (file path: D:\Photo\image.png), write the specified byte array to the file, and then close the file
+            //7. Create a new file image.png (file path: D:\Photo\image.png), write the specified byte array to the file, and then close the file 
+
+
+            StreamReader textReader = new StreamReader(@"D:\Projects\ITACADEMY\image.txt", true);
+            string textReaderResult = textReader.ReadToEnd();
+            string[] arrayOfTextResult = textReaderResult.Split(' ');
+            
+            byte[] imageBytes = new byte[arrayOfTextResult.Length - 1];            
+            
+            textReader.Dispose();
+
+            for(int i = 0; i< arrayOfTextResult.Length - 1; i++)
+            {
+                byte binary = Convert.ToByte(arrayOfTextResult[i], 2);
+                imageBytes[i] = binary;
+            }
+            File.WriteAllBytes(@"D:\Photo\image.png", imageBytes);
         }
     }
 }
