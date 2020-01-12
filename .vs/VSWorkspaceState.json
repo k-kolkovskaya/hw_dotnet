@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\hw1"
+    "\\BlankSolution",
+    "\\BlankSolution\\HW06.Task1",
+    "\\BlankSolution\\HW06.Task2"
   ],
-  "SelectedNode": "\\hw1\\index.html",
+  "SelectedNode": "\\BlankSolution\\HW06.Task2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
