@@ -13,7 +13,7 @@ namespace HW10.Task2
         {
             Name = name;
             Age = age;
-            info = $"{name}s age is{age}";
+            info = $"{name}s age is {age}";
         }
 
         public string GetInfo()
