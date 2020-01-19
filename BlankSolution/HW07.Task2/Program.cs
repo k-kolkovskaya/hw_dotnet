@@ -73,13 +73,16 @@ namespace HW07.Task2
             {
                 string longest = GetLongest(modifiedString.ToString());
                 arrayOfWords[i] = longest;
-                do
+                
+                if(string.IsNullOrEmpty(modifiedString.ToString()) == false)
                 {
                     modifiedString.Replace(longest, "");
                 }
-                while (string.IsNullOrEmpty(modifiedString.ToString()) == true);
-                
-                    
+                else
+                {
+                    break;
+                }             
+
                 Console.WriteLine(arrayOfWords[i]);
             }
         }
