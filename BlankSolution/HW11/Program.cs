@@ -6,6 +6,8 @@ namespace HW11
     {
         static void Main(string[] args)
         {
+            Logger.InitLogger();
+            Logger.Log.Info("This is my info message");
             Circle round1 = new Circle(10);
             Circle round2 = new Circle(2);
             Triangle triangle = new Triangle(1);
