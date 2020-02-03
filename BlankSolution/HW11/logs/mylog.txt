@@ -1,5 +1,13 @@
-2020-01-26 20:41:45,609 [1] INFO HW11.Logger - This is my info message
-2020-01-26 20:46:24,441 [1] INFO HW11.Logger - This is my info message
-2020-01-26 21:15:04,519 [1] INFO HW11.Logger - This is my info message
-2020-01-26 21:16:08,591 [1] INFO HW11.Logger - This is my info message
-2020-01-26 21:26:55,361 [1] INFO HW11.Logger - This is my info message
+2020-02-03 12:47:19,409 [1] INFO HW11.Logger - HW11 starts
+2020-02-03 12:52:22,099 [1] INFO HW11.Logger - HW11 starts
+2020-02-03 12:52:22,114 [1] INFO HW11.Logger - New instance of Circle was created
+2020-02-03 12:52:22,115 [1] INFO HW11.Logger - New instance of Square was created
+2020-02-03 12:52:22,116 [1] INFO HW11.Logger - New instance of Triangle was created
+2020-02-03 13:25:38,613 [1] INFO HW11.Logger - HW11 starts
+2020-02-03 13:25:38,628 [1] INFO HW11.Logger - New instance of Circle was created
+2020-02-03 13:25:38,629 [1] INFO HW11.Logger - New instance of Square was created
+2020-02-03 13:25:38,630 [1] INFO HW11.Logger - New instance of Triangle was created
+2020-02-03 13:25:38,631 [1] INFO HW11.Logger - Output to console starts
+2020-02-03 13:25:38,633 [1] INFO HW11.Logger - Output to console starts
+2020-02-03 13:25:38,635 [1] INFO HW11.Logger - Output to console starts
+2020-02-03 13:25:38,636 [1] INFO HW11.Logger - HW11 finishes
