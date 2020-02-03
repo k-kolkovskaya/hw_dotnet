@@ -6,7 +6,9 @@ namespace HW9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Greeting greet = new Greeting();
+            Airport airport = new Airport();
+            greet.Greet(airport.airportName);
         }
     }
 }
